@@ -10,6 +10,7 @@ public class videoLauncher {
         videoStore.receiveRating("Godfather II", 3);
         videoStore.checkout("Star Wars Episode IV: A New Hope");
         videoStore.receiveRating("Star Wars Episode IV: A New Hope", 5);
+        videoStore.checkout("The Matrix");
         videoStore.ListInventory();
     }
 }

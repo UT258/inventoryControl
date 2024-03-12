@@ -15,6 +15,7 @@ class VideoStore {
                 return true;
             }
         }
+        System.out.println("Video not available");
         return false;
     }
 
